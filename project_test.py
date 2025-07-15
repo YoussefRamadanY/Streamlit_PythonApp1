@@ -6,7 +6,7 @@ model_path = "social_media_addiction_model.pkl"
 model = joblib.load(model_path)
 
 # Input form
-st.title("📱 Social Media Addiction Score Predictor")
+st.title("Social Media Addiction Score Predictor")
 st.write("Enter a student's data below to predict their social media addiction score.")
 
 # Input fields
