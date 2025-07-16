@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model_path = "social_media_addiction_model.pkl"
+model_path = "models/social_media_addiction_model.pkl"
 model = joblib.load(model_path)
 
 # Input form
